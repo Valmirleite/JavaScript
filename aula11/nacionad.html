@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sois da onde Gay?</title>
+</head>
+<body>
+    <h1>Selecione o seu País</h1>
+    Digite o País: <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function verificar(){
+            var tpais = document.getElementById('txtpais')
+            var res = document.getElementById('res')
+            var qpais = (tpais.value)
+            res.innerHTML = `<p>O pais inserido foi <strong>${qpais}</strong></p>`
+            if(qpais == 'Brasil'){
+                res.innerHTML += 'Você é brasileire'
+            }else{
+                res.innerHTML += 'você é estrangeire'
+            }
+
+        }
+
+    </script>
+</body>
+</html>
