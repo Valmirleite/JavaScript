@@ -1,8 +1,9 @@
 @charset 'UTF-8';
 
-body{   
-    background-color: rgb(159, 177, 159);
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background-color: rgb(71, 71, 233); 
+    font: normal 17pt arial;  
+    
     
 }
 header{
@@ -11,12 +12,17 @@ header{
 }
 section{
     background-color: white;
-    height: 100px;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.548);
 }
-footer{
-    color: white;
+div{
     text-align: center;
-    padding-top: 15px;
+}
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
