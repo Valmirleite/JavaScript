@@ -1,0 +1,29 @@
+@charset 'UTF-8';
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0099d0;
+    color:  white;
+}
+header{
+    text-align: center;
+}
+section{
+    background-color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.418);
+    width: 350px;
+    margin: auto;
+    color: black;
+    border-radius: 15px;
+    padding: 20px;
+}
+div > input{
+    margin-bottom: 15px;
+   
+}
+
+footer{
+    text-align: center;
+    padding-top: 24px;
+    font-weight: bolder;
+}
